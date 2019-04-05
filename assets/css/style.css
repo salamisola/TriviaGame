@@ -1,0 +1,116 @@
+body {
+    background-image: url('../images/map3.jpg');
+    font-family: 'Anton', sans-serif;
+    color: black;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 60px;
+    color: orange;
+}
+
+#firstpage {
+     background-color: white; 
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.black-background {
+    background-color: #000000;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.firstpageContainer {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+    margin-top: 20%;
+}
+
+.answerContainer {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+.wrongBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+label {
+    color: blue;
+}
+
+
+body .container {
+    background-color: white; 
+    height: 100%;
+    text-align: center;
+    display: none;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.questions {
+    font-size: 15px;
+    ]
+}
+
+.ques,
+label {
+    padding: 1%;
+}
+
+header {
+    font-size: 60px;
+    color: black;
+    margin-top: 2%;
+}
+
+
+
+#answerPage {
+    display: none;
+     background-color: white; 
+    width: 65%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+#gameOver {
+    display: none;
+    background-color: white; 
+    width: 65%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+.gameOverHeader {
+    color: red;
+}
+
+.timeRemain {
+    padding: 2%;
+    color: red;
+}
+
+.timeRemain #time-remain {
+    font-size: 60px;
+}
+
