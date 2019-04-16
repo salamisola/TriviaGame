@@ -39,7 +39,7 @@ h1 {
     padding: 4%;
 }
 
-.wrongBox {
+.gameOverContainer {
     margin: 0 auto;
     text-align: center;
     padding: 4%;
@@ -50,7 +50,7 @@ label {
 }
 
 
-body .container {
+body .questionContainer {
     background-color: white; 
     height: 100%;
     text-align: center;

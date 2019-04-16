@@ -1,4 +1,4 @@
-//Questions to display when game starts
+//Array of Questions to display when game starts
 var questions = [{
             ques: "Which is the only American state to begin with the letter 'p'?",
             options: ["Port-Harcourt", "Pennsylvania", "Plateau", "Puerto Rico"],
@@ -72,11 +72,12 @@ var questions = [{
     ] // end questions array
 
 var labels = ["first", "second", "third", "forth"];
+$("#reset").hide();
 
 // click to start then display quesions
 var startGame = $("#start-game").on('click', function() {
     $(this).parent().hide();
-    $('.container').show();
+    $('.questionContainer').show();
     countdown(60);
     questionDisplay();
 });
@@ -105,7 +106,7 @@ var countdown = function(seconds) {
         $("#timeRemain").html(seconds);
 
         if (seconds <= 0) {
-            $('.container').fadeOut(500);
+            $('.questionContainer').fadeOut(500);
             var correctAnswers = 0;
             var wrongAnswers = 0;
             var unAnsweredQuestions = 0;
@@ -162,12 +163,13 @@ var scores = $('#submit-button').on('click', function() {
     // stop timer after submission
     countdown();
     // hide question page after submission
-    $('.container').fadeOut(500);
+    $('.questionContainer').fadeOut(500);
     // show answerScreen
     $('#answerPage').show();
     // display correctAnswers
     $('#correctAnswerPage').append(correctAnswers);
     // display wrongAnswers
     $('#wrongAnswerPage').append(wrongAnswers);
+    $("#reset").show();
 
 }); // end 

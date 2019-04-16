@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>	
 	<meta charset="utf-8">
@@ -29,26 +29,28 @@
 
     <div id="answerPage">
         <div class="answerContainer">
-			<h1>Congratulations!!!</h1>
+			<h1>Done!!!</h1>
             <h2>Your Score Breakdown</h2>
             <hr />
             <p id="correctAnswerPage">Correct Answers: </p>
             <p id="wrongAnswerPage">Wrong Answers: </p>
+            <button class="btn btn-success" id="reset">Play Again?</button>
         </div>
     </div>
 
 
     <div id="gameOver">
-        <div class="wrongBox">
+        <div class="gameOverContainer">
             <h2 class="gameOverHeader">Game Over!</h2>
             <hr />
             <p>Your Score Breakdown:</p>
             <p id="correctAnswersGameOver">Correct Answers: </p>
             <p id="wrongAnswerGameOver">Wrong Answers: </p>
+            <button class="btn btn-success" id="reset">Play Again?</button>
         </div>
     </div>
 
-    <div class="container">
+    <div class="questionContainer">
         <header>Country Trivia!</header>
         <div class="row timeRemain">Time Remaining:
             <div id="timeRemain">60</div>
@@ -60,7 +62,7 @@
         </div>
 
     </div>
-	<button class="btn btn-success" id="reset">Play Again?</button>
+	<!-- <button class="btn btn-success" id="reset">Play Again?</button> -->
     <script src="assets/javascript/app.js "></script>
 
 </body>
