@@ -170,6 +170,10 @@ var scores = $('#submit-button').on('click', function() {
     $('#correctAnswerPage').append(correctAnswers);
     // display wrongAnswers
     $('#wrongAnswerPage').append(wrongAnswers);
+    // to reset game with a reference to the play again button - not working yet.
     $("#reset").show();
+    
 
-}); // end 
+}); 
+
+// end 
